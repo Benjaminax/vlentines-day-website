@@ -30,11 +30,13 @@
   .retro-button-yes {
     @apply bg-green-500 hover:bg-green-400;
     @apply animate-pulse-pink;
+    transform-origin: center;
   }
   
   .retro-button-no {
     @apply bg-red-500 hover:bg-red-400;
     @apply cursor-pointer;
+    position: relative;
   }
   
   .heart-float {
